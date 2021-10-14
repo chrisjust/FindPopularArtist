@@ -36,6 +36,7 @@ public class Main {
         bookings.add(new Booking(list.get(2)));
 
         var mostPopular = finder.FindMostPopularArtist(bookings);
+
         assertEquals(mostPopular, expectedMostPopular);
     }
 }
